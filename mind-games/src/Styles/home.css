@@ -1,0 +1,72 @@
+.mind-games
+{
+  background-color: #282c34;
+  color: white;
+  text-align: center;
+  padding: .2rem;
+  margin: 0;
+  font-size: 2rem;
+  cursor: pointer;
+
+}
+.home
+{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.quizImage
+{
+  width:50%;
+}
+.settings
+{
+  flex: .8;
+  box-sizing: border-box;
+  padding: 0 1rem;
+  display: flex;
+  flex-direction: column;
+}
+.settings h3
+{
+  align-self: center;
+  font-size: 2rem;
+  margin:.5rem 0;
+  color:#282c34;
+}
+.primary
+{
+  padding: 1rem;
+  text-transform: uppercase;
+  font-size: large;
+  font-weight: 400;
+  background-color: #282c34;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin-bottom: .5rem;
+}
+.quizInputs
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height:42vh;
+}
+
+
+@media screen and (max-width:800px) {
+  .home{
+    flex-direction: column-reverse;
+  }
+  .mind-games
+  {
+    font-size: 1.5rem;
+  }
+  .quizImage
+  {
+    width:80%;
+  }
+
+  
+}
